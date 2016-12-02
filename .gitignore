@@ -84,3 +84,8 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/
+tests/
+gradle/
+screenshots/
+settings.gradle
+build.gradle
