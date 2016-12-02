@@ -41,7 +41,7 @@ class BasicGestureDetectFragment extends Fragment {
     gestureView.setOnTouchListener(new View.OnTouchListener() {
       def onTouch(view: View, motionEvent: MotionEvent): Boolean = {
         gd.onTouchEvent(motionEvent)
-        return false
+        false
       }
     })
   }
@@ -50,7 +50,7 @@ class BasicGestureDetectFragment extends Fragment {
     if (item.getItemId == R.id.sample_action) {
       clearLog
     }
-    return true
+    true
   }
 
   def clearLog {

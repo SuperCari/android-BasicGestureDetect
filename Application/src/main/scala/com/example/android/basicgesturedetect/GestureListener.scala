@@ -20,7 +20,7 @@ import android.os.Build
 import android.view.GestureDetector
 import android.view.MotionEvent
 import com.example.android.common.logger.Log
-
+import util.control.Breaks._
 object GestureListener {
   val TAG: String = "GestureListener"
 

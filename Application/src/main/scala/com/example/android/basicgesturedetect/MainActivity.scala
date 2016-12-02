@@ -44,7 +44,7 @@ class MainActivity extends SampleActivityBase {
 
   override def onCreateOptionsMenu(menu: Menu): Boolean = {
     getMenuInflater.inflate(R.menu.main, menu)
-    return true
+    true
   }
 
   override def initializeLogging {
